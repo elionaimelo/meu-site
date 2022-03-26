@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import About from '../components/About/About'
+import Box from '../components/Box/Box'
 import ContactSocial from '../components/ContactSocial/ContactSocial'
 import Header from '../components/Header/Header'
 import Intro from '../components/Intro/Intro'
@@ -16,6 +18,13 @@ const Home: NextPage = () => {
       <main className='px-10'>
         <Intro />
         <ContactSocial />
+        <About />
+        <div className='flex justify-center space-x-5'>
+          <Box>Web design</Box>
+          <Box>Acessibilidade</Box>
+          <Box>SEO</Box>
+          <Box>Resonsividade</Box>
+        </div>
       </main>
     </>
   )

@@ -2,7 +2,6 @@ import ButtonOutline from '../ButtonOutline/ButtonOutline'
 import Divider from '../Divider/Divider'
 import { FaRegEnvelopeOpen } from 'react-icons/fa'
 import { IoMdPaperPlane } from 'react-icons/io'
-import Image from 'next/image'
 
 const Intro = () => {
   return (
