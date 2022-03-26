@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Intro = () => {
   return (
     <div className='flex flex-col justify-center h-screen text-white'>
-      <div className='z-30'>
+      <div className='z-30 ml-20'>
         <h4 className='mb-3 text-2xl font-firacode'>
           Olá, meu nome é Elionai Melo
         </h4>
@@ -31,7 +31,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className='absolute bottom-0 left-0 z-10 w-full opacity-75'>
+      <div className='absolute bottom-0 left-0 z-10 w-full opacity-30'>
         <img src='/images/wave1.svg' alt='' />
       </div>
       <div className='absolute left-0 z-20 w-full bottom-9 opacity-5'>
