@@ -11,6 +11,7 @@ import { BsPencil } from 'react-icons/bs'
 import { MdOutlineAccessibleForward } from 'react-icons/md'
 import { ImBullhorn } from 'react-icons/im'
 import { AiOutlineMobile } from 'react-icons/ai'
+import Portfolio from '../components/Portfolio/Portfolio'
 
 const Home: NextPage = () => {
   return (
@@ -43,6 +44,7 @@ const Home: NextPage = () => {
             Responsividade
           </Box>
         </div>
+        <Portfolio />
       </main>
     </>
   )

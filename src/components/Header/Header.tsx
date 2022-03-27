@@ -16,8 +16,12 @@ const Header = () => {
         <a href='#projetos' className='text-white hover:text-yellow-400'>
           Projetos
         </a>
-        <a href='#contato' className='text-white hover:text-yellow-400'>
-          Contato
+        <a
+          href='mailto:elionai.melo@gmail.com'
+          target='_blank'
+          className='text-white hover:text-yellow-400'
+        >
+          Deixe um oi...
         </a>
       </nav>
     </header>
