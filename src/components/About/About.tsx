@@ -8,11 +8,12 @@ const About = () => {
         <h6 className='mb-4 text-amber-300'>- Sobre</h6>
         <h4 className='text-3xl '>
           Amante da web!
-          <br /> há 10 anos no mercado.
+          <br /> Há 10 anos no mercado.
           <br /> Tem alguma
-          <span className='text-amber-300'> dúvida? </span>
+          <span className='text-amber-300'> dúvida, sugestão ou convite? </span>
           <br />
-          Entra em contato comigo.
+          <br />
+          <span className='text-amber-300'> Entre em contato.</span>
         </h4>
         <a
           href='mailto:elionai.melo@gmail.com'
