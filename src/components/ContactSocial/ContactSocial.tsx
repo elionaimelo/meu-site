@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const ContactSocial = () => {
   return (
-    <div className='fixed z-30 flex flex-col left-10 bottom-10 gap-y-4'>
+    <div className='fixed z-10 flex flex-col left-10 bottom-10 gap-y-4'>
       <a
         href='https://api.whatsapp.com/send?phone=5584996163845&text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento.'
         target='_blank'

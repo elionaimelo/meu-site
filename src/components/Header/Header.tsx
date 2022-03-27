@@ -1,14 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Logo from '../Logo/Logo'
 
 const Header = () => {
   return (
-    <header className='fixed flex items-center justify-between w-full p-10 shadow-md'>
-      <Link href='/'>
-        <a>
-          <Image src='/images/logo.svg' width={79} height={79} />
-        </a>
-      </Link>
+    <header className='fixed flex items-center justify-between w-full p-6 shadow-lg  bg-blueDark z-50'>
+      <Logo />
       <nav className='flex gap-8'>
         <a href='#' className='text-white hover:text-yellow-400'>
           Sobre

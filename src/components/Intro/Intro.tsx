@@ -7,8 +7,11 @@ const Intro = () => {
   return (
     <div className='flex flex-col justify-center h-screen text-white'>
       <div className='z-30 ml-20'>
-        <h4 className='mb-3 text-2xl font-firacode'>
-          Olá, meu nome é Elionai Melo
+        <h4 className='mb-2 text-2xl font-firacode'>
+          Olá, meu nome é{' '}
+          <span className=' inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change'>
+            Elionai Melo
+          </span>
         </h4>
         <h1 className='text-7xl font-anton'>
           Dev wordpress
